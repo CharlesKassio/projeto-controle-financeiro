@@ -7,11 +7,66 @@
         <title>
             Controle financeiro 
         </title>
-
+        <link rel="stylesheet" href="./CSS/style.css" />
     </head>
+    
+    <body>
+        <Header class="cabecalho">
+            <div class="topo"> <!--logo e texto principal-->
+                <img class="logo" src="./img/logo.png" />
+                <div class="texto-cabecalho"> Controle financeiro </div>
+            </div>
+            
+            <div class="botoes-cabecalho"> <!--botões da direita sup-->
+                 <input type="button" value="Limpar dados">
+                 <input type="button" value="Cadastro de transações">
+                <input type="button" value="Configurações">
+            <div>
 
-        <body>
-                testando
+                <br>
+
+        <div class="transacoes"> <!--botões da esq-->
+                <div class="texto-transacao">
+                   <h1>
+                    Nova Transação
+                   </h1> 
+                </div>
+
+                <div class="button" id="tipo-transacao"> <!-- compra e venda-->
+                    <label for="">Tipo de transação</label><br>
+                    <Select>
+                        <option> Selecione </option>
+                        <option name="venda" value="-">Venda</option>
+                        <option name="compra" value="+">Compra</option>
+                    </Select>
+                </div>
+   
+                </div>  <br>
+                      <label for="">Nome da mercadoria</label><br>
+                      <input type="text" name="Nome da mercadoria" id="">
+                      <br>
+                      <label for="">Valor</label><br>
+                      <input type="text" name="Valor" id="">
+                      <br>
+                      <input type="button" value="Adicionar transação">
+                 <div>
+        </div>
+            
+        <div>
+
+        </div class="extrato">
+            <h2>
+                Extrato de transações
+            </h2>
+            <hr>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <hr>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <hr>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <br><br><br>
+            Total 
+
     
         </body>
         
