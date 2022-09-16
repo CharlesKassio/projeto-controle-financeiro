@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    border-bottom: 8px; solid #333;
+
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.cabecalho {
+    width: 100%;
+    height: 80px;
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+   
+} 
+
+.texto-cabecalho {
+    position: absolute;
+    width: 100%;
+    height: 43px;
+    left: 40%;
+    top: 19px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+
+color: #333333;
+}
+
+.logo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 85px;
+    top: 8px;
+
+    border: 2px solid #333333;
+}
+
+
+.botoes-cabecalho {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.botoes-cabecalho a {
+    margin: 5px 20px;
+    
+    
+}
+
+.botoes-cabecalho hr {
+    
+    width: 20px;
+    height: 0px;
+    left: 211px;
+    top: 10px;
+    
+    border: 1px solid #979797;
+    transform: rotate(90deg);
+    border: 1px solid #979797;
+    transform: rotate(90deg);
+
+}
+
+.form {
+
+border: 1px solid #97979797;
+margin: 80px;
+display: flex;
+flex-direction: column;
+padding: 20px; width: 400px;
+
+justify-content: center;
+
+
+
+}
+
+.button {
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.text-tipo-transacao {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    
+}
+
+.tabela_titulo1 {
+    justify-content: center;
+    display: flex;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.tabela_titulo2 {
+    justify-content: right;
+    display: flex;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+    
+.tabela_corpo1 {
+    justify-content: center;
+    display: flex;
+
+}
+.tabela_corpo2 {
+    justify-content: center;
+    display: flex;
+    ;
+}
+
+.tabela_corpo3 {
+    justify-content: flex-end;
+    display: flex;
+    
+}
+
+.tabela_rodape1 {
+    justify-content: center;
+    display: flex
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.tabela_rodape2 {
+    justify-content: flex-end;
+    display: flex;
+
+}
+
+.tabela_rodape3 {
+    justify-content: flex-end;
+    display: flex;
+}

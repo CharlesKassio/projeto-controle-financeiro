@@ -11,20 +11,26 @@
     </head>
     
     <body>
-        <Header class="cabecalho">
+        <header class="cabecalho">
             <div class="topo"> <!--logo e texto principal-->
                 <img class="logo" src="./img/logo.png" />
-                <div class="texto-cabecalho"> Controle financeiro </div>
+             <div class="texto-cabecalho">
+                 Controle financeiro
+             </div>
+            
+
             </div>
             
             <div class="botoes-cabecalho"> <!--botões da direita sup-->
-                 <input type="button" value="Limpar dados">
-                 <input type="button" value="Cadastro de transações">
-                <input type="button" value="Configurações">
-            <div>
+                 <a>Limpar dados</a> <hr>
+                 <a> Cadastro de transações</a>
+               
+            </div>
+            
+        </header>
 
                 <br>
-
+        <form class="form">
         <div class="transacoes"> <!--botões da esq-->
                 <div class="texto-transacao">
                    <h1>
@@ -33,12 +39,18 @@
                 </div>
 
                 <div class="button" id="tipo-transacao"> <!-- compra e venda-->
+                    <div class="text-tipo-transacao">
                     <label for="">Tipo de transação</label><br>
+                    </div>
+                    
+                    <div class="compra-venda">
                     <Select>
                         <option> Selecione </option>
-                        <option name="venda" value="-">Venda</option>
-                        <option name="compra" value="+">Compra</option>
+                        <option >Venda</option>
+                        <option >Compra</option>
                     </Select>
+                    
+                    </div>
                 </div>
    
                 </div>  <br>
@@ -51,21 +63,37 @@
                       <input type="button" value="Adicionar transação">
                  <div>
         </div>
-            
+        </form>   
         <div>
 
-        </div class="extrato">
-            <h2>
-                Extrato de transações
-            </h2>
-            <hr>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <hr>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <hr>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br><br><br>
-            Total 
+            <div class="tabela">
+                <div class="tabela_titulo1">Mercadoria</div>
+                <div class="tabela_titulo2">Valor</div>
+              </div>
+        
+              <div class="container_tabela">
+                <div class="tabela_corpo1">+</div>
+                <div class="tabela_corpo2">Lorem ipsum dolor sit amet consectetur</div>
+                <div class="tabela_corpo3">R$ 12.999,99</div>
+              </div>
+        
+              <div class="container_tabela">
+                <div class="tabela_corpo1">-</div>
+                <div class="tabela_corpo2">Quis nostrud exercitation</div>
+                <div class="tabela_corpo3">R$ 99,99</div>
+              </div>
+        
+              <div class="container_tabela">
+                <div class="tabela_corpo1">+</div>
+                <div class="tabela_corpo2">Lorem ipsum</div>
+                <div class="tabela_corpo3">R$ 9,99</div>
+              </div>
+        
+              <div class="container_tabela">
+                <div class="tabela_rodape1">Total</div>
+                <div class="tabela_rodape2">R$ 12.909,99</div>
+                <div class="tabela_rodape3">[LUCRO]</div>
+              </div>
 
     
         </body>
